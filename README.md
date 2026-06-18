@@ -70,9 +70,13 @@ pip install opencv-python
 ```bash
 # Make sure the virtual environment is activated
 source venv/bin/activate
+#for fish
+source venv/bin/activate.fish
 
 # Run the detector
 python3 human_detector.py
+#for python
+python human_detector.py
 ```
 
 ### Keyboard Controls
